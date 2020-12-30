@@ -1,18 +1,33 @@
 body{
     background-color: #400D12;
-    color:#fff;
     font-size: 16px;
     font-family: 'Oxygen', sans-serif;
 }
 #header-nav{
     background-color:azure;
 }
-.container{
-    margin: 0;
-}
 #logo-img{
-    background: url('../images/logo/restaurant-logo.png') no-repeat;
-    width: 150px;
-    height: 150px;
+    background: url('../images/logo/restaurant-logo100.png') no-repeat;
+    width: 100px;
+    height: 100px;
     margin: 10px 15px 10px 0;
+}
+.navbar-brand h1{ /*Resturant Name*/
+    font-family: 'Lora', serif;
+    color:#557c3e;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 10px;
+    margin-bottom: 0;
+    line-height: 1.75;
+}
+.navbar-brand a:hover{ /*Resturant Name*/
+    text-decoration: none;
+}
+.navbar-brand p span{  /*Kaho mery Lahore*/
+    margin-left: 5px;
+    font-size: .7em;
+    vertical-align: middle;
 }
