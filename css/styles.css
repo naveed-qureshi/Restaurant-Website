@@ -10,7 +10,7 @@ body{
     background: url('../images/logo/restaurant-logo100.png') no-repeat;
     width: 100px;
     height: 100px;
-    margin: 10px 15px 10px 0;
+    margin: 0px 15px 10px 0;
 }
 .navbar-brand h1{ /*Resturant Name*/
     font-family: 'Lora', serif;
@@ -31,3 +31,42 @@ body{
     font-size: .7em;
     vertical-align: middle;
 }
+.navbar-nav a{
+    text-align: center;
+}
+.navbar-nav li:nth-child(4) span{ /* Phone no */
+    font-family: 'Lora', serif;
+    color:#557c3e;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    padding-top: 0;
+    line-height: 1.25;
+}
+
+#phone{
+    background-color:azure;
+    margin-top: 10px;
+    border: 2px solid #557c3e;
+    border-radius: 5px;
+    text-align: center;
+}
+#phone a span{
+    font-family: 'Lora', serif;
+    color:#557c3e;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    padding-top: 0;
+    line-height: 1.25;
+}
+
+@media (max-width:992px){
+    .navbar-brand h1{
+        font-size: 2em;
+    }
+   
+}
+
