@@ -86,6 +86,15 @@ body{
 .list-unstyled li:nth-child(n+1) a{
     color: white;
 }
+.jumbotron{
+    margin-top: 10px;
+    background: url('../images/main/restairant.jpeg') no-repeat center;
+    height: 675px;
+    background-size: cover;
+
+   
+    
+}
 @media (max-width:991px) and (min-width:767px){
     #header-nav .container{
         max-width: 850px;
