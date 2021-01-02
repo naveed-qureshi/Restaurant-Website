@@ -1,5 +1,5 @@
 body{
-    background-color: #400D12;
+    /* background-color: #400D12; */
     font-size: 16px;
     font-family: 'Oxygen', sans-serif;
 }
@@ -7,7 +7,7 @@ body{
     width: 100%;
 }
 #logo-img{
-    background: url('../images/logo/restaurant-logo100.png') no-repeat;
+    /* background: url('../images/logo/restaurant-logo100.png') no-repeat; */
     width: 100px;
     height: 100px;
     margin: 0px 15px 10px 0;
@@ -73,7 +73,19 @@ body{
     padding-top: 0;
     line-height: 1.25;
 }
+.navbar-toggler{
+    border: 0;
+}
 
+.footer{
+    background-color: #557c3e;
+    margin:0px auto;
+    color:white;
+    padding: 20px 0px 20px 0px;
+}
+.list-unstyled li:nth-child(n+1) a{
+    color: white;
+}
 @media (max-width:991px) and (min-width:767px){
     #header-nav .container{
         max-width: 850px;
